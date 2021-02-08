@@ -19,8 +19,8 @@ public class PwdGeneratorService {
 	}
 
 	private String generatePwd() {
-		int lowerLimit = 48;
-		int upperLimit = 122;
+		int lowerLimit = 48;//ascii value of 0
+		int upperLimit = 122;//ascii value of z
 		
 		Random random = new Random();
 		
