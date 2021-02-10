@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class PwdGeneratorService {
-	public static final int passwordlength = 10;
+	public static final int passwordlength = 20;
 	public String generatePassword() {
 		return generatePwd();
 	}
